@@ -34,3 +34,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# What is next.js?
+
+next.js is a React Framwork for building full stack web application,it's based on server side rendering
+
+# server side rendering vs client side rendring
+
+SSR➡ content of your site is generated on the server, then sent to the browser.
+CSR➡ It renders the content in the browser using JavaScript,
+
+# Why Next.js?
+
+-Built in routing
+-Server side rendering
+-Static Site Generation (SSG)
+-File-based Routing
+-React’s absence of native routing necessitates third-party solutions, whereas NextJS provides seamless routing functionality.
+
+# App Routing(New version) and Page Routing(Old version)
+
+- App Routing provides ➡ Server Components and Streaming.
+- Pages Router allowed you to build server-rendered React applications and continues to be supported for older Next.js applications.
+
+## Next.js Project Structure
+
+It covers top-level files and folders, configuration files, and routing conventions within the app and pages directories.
+
+# Routing File Convention(pre built)
+
+- layout,page,loading,not-found,error,route(server-side-endpoint)
